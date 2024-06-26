@@ -24,7 +24,7 @@
             "raw": "{\n    \"name\": \"Mohit kumar yadav\",\n    \"age\": 32,\n    \"gender\": \"Male\",\n    \"years_of_exp\": 5,\n    \"phone_number\": \"+917830346904\",\n    \"email\": \"sanket.nihal2@example.com\",\n    \"current_salary\": 50000,\n    \"expected_salary\": 60000\n}"
           },
           "url": {
-            "raw": "http://127.0.0.1:8000/api/candidates",
+            "raw": "http://66.94.102.196:9000/api/candidates",
             "protocol": "http",
             "host": [
               "127",
@@ -52,7 +52,7 @@
             }
           ],
           "url": {
-            "raw": "http://127.0.0.1:8000/api/candidates?name=anil",
+            "raw": "http://66.94.102.196:9000/api/candidates?name=anil",
             "protocol": "http",
             "host": [
               "127",
@@ -86,7 +86,7 @@
             }
           ],
           "url": {
-            "raw": "http://127.0.0.1:8000/api/candidates?min_expected_salary=100000&max_expected_salary=150000",
+            "raw": "http://66.94.102.196:9000/api/candidates?min_expected_salary=100000&max_expected_salary=150000",
             "protocol": "http",
             "host": [
               "127",
@@ -124,7 +124,7 @@
             }
           ],
           "url": {
-            "raw": "http://127.0.0.1:8000/api/candidates?min_age=21&max_age=30&min_years_of_exp=3",
+            "raw": "http://66.94.102.196:9000/api/candidates?min_age=21&max_age=30&min_years_of_exp=3",
             "protocol": "http",
             "host": [
               "127",
@@ -166,7 +166,7 @@
             }
           ],
           "url": {
-            "raw": "http://127.0.0.1:8000/api/candidates?email=sanket.nihal%40gmail.com",
+            "raw": "http://66.94.102.196:9000/api/candidates?email=sanket.nihal%40gmail.com",
             "protocol": "http",
             "host": [
               "127",

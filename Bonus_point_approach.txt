@@ -1,0 +1,23 @@
+Approach Explanation:
+
+1. Fetch Candidates:
+    Retrieve all candidates from the database.
+
+2. Filter Matched Candidates:
+    Use query tokens to filter candidates whose names contain any of the tokens.
+
+3. Exclude and Sort:
+    Exclude matched candidates to get unmatched ones.
+    Sort both matched and unmatched candidates by relevance score and character match count in descending order.
+
+4. Combine and Serialize:
+    Combine sorted matched and unmatched candidates.
+    Serialize candidates with additional fields for matching score and character match count.
+
+5.DB Indexing:
+    Ensure database indexing on the name field for efficient querying.
+    
+Benefits:
+    Efficient candidate retrieval and sorting.
+    Improved query performance with indexing.
+    Accurate and relevant search results.

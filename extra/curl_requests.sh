@@ -1,5 +1,5 @@
 Create candidate
-curl --location 'http://127.0.0.1:8000/api/candidates' \
+curl --location 'http://66.94.102.196:9000/api/candidates' \
 --header 'Cookie: csrftoken=o5GRWYJ9FEQUslYCXQGgTbdrwH6edJsduc1AXozQObYDMZShI9skprowlOHt3lov' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -16,7 +16,7 @@ curl --location 'http://127.0.0.1:8000/api/candidates' \
 Filter candidates 
 
 1. Filter by name
-curl --location 'http://127.0.0.1:8000/api/candidates?name=anil' \
+curl --location 'http://66.94.102.196:9000/api/candidates?name=anil' \
 --header 'Content-Type: application/json'
 
 2. Filter by salary range
@@ -28,11 +28,11 @@ curl --location 'http://localhost:8000/api/candidates?min_age=21&max_age=30&min_
 --header 'Accept: application/json'
 
 4. Filter by email
-curl --location 'http://127.0.0.1:8000/api/candidates?email=sanket.nihal%40gmail.com' \
+curl --location 'http://66.94.102.196:9000/api/candidates?email=sanket.nihal%40gmail.com' \
 --header 'Content-Type: application/json'
 
 5. Filter by phone number
-curl --location 'http://127.0.0.1:8000/api/candidates?phone_number=7830346973' \
+curl --location 'http://66.94.102.196:9000/api/candidates?phone_number=7830346973' \
 --header 'Content-Type: application/json'
 
 Modify Candidates status // valid operations are shortlist and reject
