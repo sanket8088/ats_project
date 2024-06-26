@@ -18,6 +18,13 @@ python manage.py runserver
 ```
 And navigate to `http://127.0.0.1:8000/`.
 
+Extra
+Want some test data to try out
+```sh
+python manage.py create_test_data
+```
+Play around with the data
+
 ## Setup with Docker
 
 Docker installed on your machine
