@@ -1,0 +1,224 @@
+{
+    "info": {
+      "_postman_id": "57c6c33e-1883-4c0e-bf2d-f0e9c6b234b8",
+      "name": "Candidates API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Create Candidate",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Cookie",
+              "value": "csrftoken=o5GRWYJ9FEQUslYCXQGgTbdrwH6edJsduc1AXozQObYDMZShI9skprowlOHt3lov"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"name\": \"Mohit kumar yadav\",\n    \"age\": 32,\n    \"gender\": \"Male\",\n    \"years_of_exp\": 5,\n    \"phone_number\": \"+917830346904\",\n    \"email\": \"sanket.nihal2@example.com\",\n    \"current_salary\": 50000,\n    \"expected_salary\": 60000\n}"
+          },
+          "url": {
+            "raw": "http://127.0.0.1:8000/api/candidates",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "api",
+              "candidates"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Filter Candidates by Name",
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:8000/api/candidates?name=anil",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "api",
+              "candidates"
+            ],
+            "query": [
+              {
+                "key": "name",
+                "value": "anil"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Filter Candidates by Salary Range",
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Accept",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:8000/api/candidates?min_expected_salary=100000&max_expected_salary=150000",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "api",
+              "candidates"
+            ],
+            "query": [
+              {
+                "key": "min_expected_salary",
+                "value": "100000"
+              },
+              {
+                "key": "max_expected_salary",
+                "value": "150000"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Filter Candidates by Age and Experience",
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Accept",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:8000/api/candidates?min_age=21&max_age=30&min_years_of_exp=3",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "api",
+              "candidates"
+            ],
+            "query": [
+              {
+                "key": "min_age",
+                "value": "21"
+              },
+              {
+                "key": "max_age",
+                "value": "30"
+              },
+              {
+                "key": "min_years_of_exp",
+                "value": "3"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Filter Candidates by Email",
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://127.0.0.1:8000/api/candidates?email=sanket.nihal%40gmail.com",
+            "protocol": "http",
+            "host": [
+              "127",
+              "0",
+              "0",
+              "1"
+            ],
+            "port": "8000",
+            "path": [
+              "api",
+              "candidates"
+            ],
+            "query": [
+              {
+                "key": "email",
+                "value": "sanket.nihal@gmail.com"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Modify Candidates Status",
+        "request": {
+          "method": "PATCH",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"operation\": \"reject\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:8000/api/candidates/6",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8000",
+            "path": [
+              "api",
+              "candidates",
+              "6"
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  

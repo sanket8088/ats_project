@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  unicorn:
+    build: .
+    command: gunicorn ats_project.wsgi:application -w 4 -b 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"

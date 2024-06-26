@@ -1,0 +1,3 @@
+from ats.views.update_candidate_status_view import UpdateCandidateStatus
+from ats.views.candidate_create_list_view import CandidateListCreate
+from ats.views.name_search_view import NameSearchView

@@ -1,0 +1,261 @@
+[
+    {
+        "name": "Rahul Sharma",
+        "age": 28,
+        "gender": "Male",
+        "years_of_exp": 3,
+        "phone_number": "+919876543220",
+        "email": "rahul.sharma@example.com",
+        "current_salary": 45000,
+        "expected_salary": 55000
+    },
+    {
+        "name": "Priya Singh",
+        "age": 26,
+        "gender": "Female",
+        "years_of_exp": 4,
+        "phone_number": "+919022345678",
+        "email": "priya.singh@example.com",
+        "current_salary": 48000,
+        "expected_salary": 58000
+    },
+    {
+        "name": "Amit Patel",
+        "age": 30,
+        "gender": "Male",
+        "years_of_exp": 6,
+        "phone_number": "+911765432109",
+        "email": "amit.patel@example.com",
+        "current_salary": 55000,
+        "expected_salary": 65000
+    },
+    {
+        "name": "Sneha Gupta",
+        "age": 25,
+        "gender": "Female",
+        "years_of_exp": 2,
+        "phone_number": "+917654321498",
+        "email": "sneha.gupta@example.com",
+        "current_salary": 42000,
+        "expected_salary": 50000
+    },
+    {
+        "name": "Rajesh Kumar",
+        "age": 32,
+        "gender": "Male",
+        "years_of_exp": 7,
+        "phone_number": "+919876543110",
+        "email": "rajesh.kumar@example.com",
+        "current_salary": 60000,
+        "expected_salary": 70000
+    },
+    {
+        "name": "Neha Sharma",
+        "age": 27,
+        "gender": "Female",
+        "years_of_exp": 5,
+        "phone_number": "+912013345678",
+        "email": "neha.sharma@example.com",
+        "current_salary": 50000,
+        "expected_salary": 60000
+    },
+    {
+        "name": "Ankit Verma",
+        "age": 29,
+        "gender": "Male",
+        "years_of_exp": 4,
+        "phone_number": "+918765232102",
+        "email": "ankit.verma@example.com",
+        "current_salary": 48000,
+        "expected_salary": 58000
+    },
+    {
+        "name": "Pooja Patel",
+        "age": 31,
+        "gender": "Female",
+        "years_of_exp": 6,
+        "phone_number": "+917654311198",
+        "email": "pooja.patel@example.com",
+        "current_salary": 55000,
+        "expected_salary": 65000
+    },
+    {
+        "name": "Aakash Singh",
+        "age": 26,
+        "gender": "Male",
+        "years_of_exp": 3,
+        "phone_number": "+917654111198",
+        "email": "aakash.singh@example.com",
+        "current_salary": 45000,
+        "expected_salary": 55000
+    },
+    {
+        "name": "Divya Sharma",
+        "age": 28,
+        "gender": "Female",
+        "years_of_exp": 4,
+        "phone_number": "+919012345678",
+        "email": "divya.sharma@example.com",
+        "current_salary": 48000,
+        "expected_salary": 58000
+    },
+    {
+        "name": "Vivek Verma",
+        "age": 30,
+        "gender": "Male",
+        "years_of_exp": 6,
+        "phone_number": "+918775432109",
+        "email": "vivek.verma@example.com",
+        "current_salary": 55000,
+        "expected_salary": 65000
+    },
+    {
+        "name": "Shreya Patel",
+        "age": 25,
+        "gender": "Female",
+        "years_of_exp": 2,
+        "phone_number": "+917654321098",
+        "email": "shreya.patel@example.com",
+        "current_salary": 42000,
+        "expected_salary": 50000
+    },
+    {
+        "name": "Ravi Kumar",
+        "age": 32,
+        "gender": "Male",
+        "years_of_exp": 7,
+        "phone_number": "+919866543210",
+        "email": "ravi.kumar@example.com",
+        "current_salary": 60000,
+        "expected_salary": 70000
+    },
+    {
+        "name": "Kavita Sharma",
+        "age": 27,
+        "gender": "Female",
+        "years_of_exp": 5,
+        "phone_number": "+919015345678",
+        "email": "kavita.sharma@example.com",
+        "current_salary": 50000,
+        "expected_salary": 60000
+    },
+    {
+        "name": "Sanjay Gupta",
+        "age": 29,
+        "gender": "Male",
+        "years_of_exp": 4,
+        "phone_number": "+918765432109",
+        "email": "sanjay.gupta@example.com",
+        "current_salary": 48000,
+        "expected_salary": 58000
+    },
+    {
+        "name": "Ritu Patel",
+        "age": 31,
+        "gender": "Female",
+        "years_of_exp": 6,
+        "phone_number": "+917654121098",
+        "email": "ritu.patel@example.com",
+        "current_salary": 55000,
+        "expected_salary": 65000
+    },
+    {
+        "name": "Nitin Singh",
+        "age": 26,
+        "gender": "Male",
+        "years_of_exp": 3,
+        "phone_number": "+919876343210",
+        "email": "nitin.singh22@example.com",
+        "current_salary": 45000,
+        "expected_salary": 55000
+    },
+    {
+        "name": "Manisha Verma",
+        "age": 28,
+        "gender": "Female",
+        "years_of_exp": 4,
+        "phone_number": "+919012245678",
+        "email": "manisha.verma11@example.com",
+        "current_salary": 48000,
+        "expected_salary": 58000
+    },
+    {
+        "name": "Arjun Patel",
+        "age": 30,
+        "gender": "Male",
+        "years_of_exp": 6,
+        "phone_number": "+918765432109",
+        "email": "arjun.patel41@example.com",
+        "current_salary": 55000,
+        "expected_salary": 65000
+    },
+    {
+        "name": "Sonia Sharma",
+        "age": 25,
+        "gender": "Female",
+        "years_of_exp": 2,
+        "phone_number": "+917654321098",
+        "email": "sonia.sharma44@example.com",
+        "current_salary": 42000,
+        "expected_salary": 50000
+    },
+    {
+        "name": "Rajesh Verma",
+        "age": 32,
+        "gender": "Male",
+        "years_of_exp": 7,
+        "phone_number": "+919176543210",
+        "email": "rajesh.verm33a@example.com",
+        "current_salary": 60000,
+        "expected_salary": 70000
+    },
+    {
+        "name": "Anjali Singh",
+        "age": 27,
+        "gender": "Female",
+        "years_of_exp": 5,
+        "phone_number": "+915012345678",
+        "email": "anjali.singh881@example.com",
+        "current_salary": 50000,
+        "expected_salary": 60000
+    },
+    {
+        "name": "Vikas Gupta",
+        "age": 29,
+        "gender": "Male",
+        "years_of_exp": 4,
+        "phone_number": "+913765432109",
+        "email": "vikas.gupta12@example.com",
+        "current_salary": 48000,
+        "expected_salary": 58000
+    },
+    {
+        "name": "Priyanka Patel",
+        "age": 31,
+        "gender": "Female",
+        "years_of_exp": 6,
+        "phone_number": "+912654321098",
+        "email": "priyanka.patel22@example.com",
+        "current_salary": 55000,
+        "expected_salary": 65000
+    },
+    {
+        "name": "Akash Sharma",
+        "age": 26,
+        "gender": "Male",
+        "years_of_exp": 3,
+        "phone_number": "+919176543210",
+        "email": "akash.sharma33@example.com",
+        "current_salary": 45000,
+        "expected_salary": 55000
+    },
+    {
+        "name": "Sarika Singh",
+        "age": 27,
+        "gender": "Female",
+        "years_of_exp": 4,
+        "phone_number": "+919012342676",
+        "email": "sarika.singh1@example.com",
+        "current_salary": 45000,
+        "expected_salary": 55000
+    }]
