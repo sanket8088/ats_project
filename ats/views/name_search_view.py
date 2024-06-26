@@ -7,7 +7,7 @@ from django.db.models import Q
 from ats.constants import ErrorMessages
 
 class NameSearchView(APIView):
-    def get(self, request, *args, **kwargs):
+    def get(self, request, *args, **kwargs)->Response:
         query = request.GET.get('q', '').strip()
         if not query:
             return Response({"error": ErrorMessages.QUERY_PARAMS_NOT_FOUND.value}, status=status.HTTP_400_BAD_REQUEST)

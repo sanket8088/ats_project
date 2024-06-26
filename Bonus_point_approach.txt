@@ -1,4 +1,4 @@
-Approach Explanation:
+Approach Explanation: Kept the optimization at the code level for generic database support instead of using database-specific logic for faster matching.
 
 1. Fetch Candidates:
     Retrieve all candidates from the database.
