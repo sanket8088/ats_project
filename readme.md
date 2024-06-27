@@ -11,6 +11,14 @@ Then install the dependencies:
 ```sh
 pip install -r requirements.txt
 ```
+Install postgresql
+Sample .env file (Replace the value with your postgres db)
+
+DB_HOST=DB_HOTST
+DB_NAME=DB_NAME
+DB_USER=dev-DB_USER
+DB_PASSWORD=DB_PASSWORD
+DB_PORT=DB_PORT
 
 Once `pip` has finished downloading the dependencies:
 ```sh
