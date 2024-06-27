@@ -20,6 +20,13 @@ class NameSearchView(APIView):
         return Response(get_query_data)
     
     def _get_query_data(self, query :str)->list:
+        """
+        Get the query data from the database
+        Args:
+            query :str: The query string or search
+        Returns:
+            list: The list of candidates
+        """
         all_columns = ",".join([field.name for field in Candidate._meta.get_fields()])
         with connection.cursor() as cursor:
             sql_query = f"""SELECT {all_columns}, COUNT(*) AS match_count
